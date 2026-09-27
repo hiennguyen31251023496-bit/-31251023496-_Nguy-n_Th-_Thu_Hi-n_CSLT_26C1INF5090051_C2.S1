@@ -8,7 +8,7 @@ namespace CSLT_26C1INF5090051_C2.SESSION07
 {
     internal class Ex
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             CultureInfo culture = CultureInfo.InvariantCulture;

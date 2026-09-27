@@ -168,7 +168,7 @@ namespace CSLT_26C1INF5090051_C2.SESSION03
             {
                 Console.Write("Nhập số tiền VNĐ: ");
                 string? inputVND = Console.ReadLine();
-                bool isSuccessVND = decimal.TryParse(inputVND, NumberStyles.Any, CultureInfo.InvariantCulture, out so_tien);
+                bool isSuccessVND = decimal.TryParse(inputVND, NumberStyles.Any, null, out so_tien);
                 if (isSuccessVND && so_tien > 0)
                 {
                     break;
@@ -230,7 +230,7 @@ namespace CSLT_26C1INF5090051_C2.SESSION03
                 Console.WriteLine("Nhập ngày sinh (dd/MM/yyyy): ");
                 string? inputDate = Console.ReadLine();
                 //Dùng DateTime.TryParseExact để kiểm tra định dạng ngày nhập vào
-                bool isSuccess = DateTime.TryParseExact(inputDate, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out birthDate);
+                bool isSuccess = DateTime.TryParseExact(inputDate, "dd/MM/yyyy", null, 0, out birthDate);
                 if (isSuccess && birthDate <= today)
                 {
                     break;

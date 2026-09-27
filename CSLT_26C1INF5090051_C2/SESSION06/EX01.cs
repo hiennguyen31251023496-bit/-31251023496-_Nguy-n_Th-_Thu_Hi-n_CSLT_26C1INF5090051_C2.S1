@@ -7,7 +7,7 @@ namespace CSLT_26C1INF5090051_C2.SESSION06
 {
     internal class EX01
     {
-        public static void Main1(string[] args)
+        public static void Main(string[] args)
         {
             guessing_game_engine();
         }
@@ -24,7 +24,7 @@ namespace CSLT_26C1INF5090051_C2.SESSION06
             Console.InputEncoding = System.Text.Encoding.UTF8;
             bool playAgain = true;
             int dem_thang = 0, tong_so_van = 0;
-            int level = 1;
+            int level;
             int so_lan_doan = 0;
             do
             {
@@ -40,7 +40,7 @@ namespace CSLT_26C1INF5090051_C2.SESSION06
                     so_lan_doan = 4;
                 //Máy tính nghĩ ngẫu nhiên 1 số [1-10]
                 Random rnd = new Random();
-                int so_can_doan = rnd.Next(10) + 1;
+                int so_can_doan = rnd.Next(1,11);
                 //Hỏi người dùng đoán số đó
                 for (int i = 0; i < so_lan_doan; i++)
                 {

@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSLT_26C1INF5090051_C2.SESSION07.Ex</StartupObject>
+    <StartupObject>CSLT_26C1INF5090051_C2.SESSION06.EX01</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
