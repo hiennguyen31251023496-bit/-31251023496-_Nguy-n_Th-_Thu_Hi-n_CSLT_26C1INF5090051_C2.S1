@@ -8,8 +8,4 @@
     <StartupObject>CSLT_26C1INF5090051_C2.SESSION06.EX01</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="SESSION01\" />
-  </ItemGroup>
-
 </Project>
