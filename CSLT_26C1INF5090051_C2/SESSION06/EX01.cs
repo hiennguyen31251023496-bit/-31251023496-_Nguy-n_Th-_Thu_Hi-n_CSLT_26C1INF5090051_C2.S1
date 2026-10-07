@@ -7,7 +7,7 @@ namespace CSLT_26C1INF5090051_C2.SESSION06
 {
     internal class EX01
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             guessing_game_engine();
         }
